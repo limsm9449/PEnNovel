@@ -38,6 +38,7 @@ public class PatchActivity extends AppCompatActivity {
         patch.append("" + CommConstants.sqlCR);
 
         patch.append("* 패치 내역" + CommConstants.sqlCR);
+        patch.append("- 데이타 복구시 이전 데이타를 초기화 하도록 수정" + CommConstants.sqlCR);
         patch.append("- 2017.06.27 : 영어소설 어플 개발" + CommConstants.sqlCR);
 
         ((TextView) this.findViewById(R.id.my_c_patch_tv1)).setText(patch.toString());
